@@ -1,0 +1,105 @@
+.contact-container {
+    background-color: #39412e;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  .contact-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .contact-column {
+    flex: 1 1 200px;
+    margin: 10px;
+    padding: 10px;
+  }
+  
+  .contact-column h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .contact-column p,
+  .contact-column ul {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 5px 0;
+  }
+  
+  .contact-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-column ul li a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+  
+  .contact-column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #ffc107;
+    margin: 0 5px;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #ffffff;
+  }
+  
+  .newsletter-signup {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .newsletter-signup input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+  }
+  
+  .newsletter-signup .signup-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #ffc107;
+    color: #000;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+  }
+  
+  .newsletter-signup .signup-button:hover {
+    background-color: #e0a800;
+  }
+  
+  .contact-footer {
+    background-color: #e5c03d;
+    color: #000000;
+    padding: 10px 0;
+    font-size: 14px;
+  }
+  
+  .contact-footer a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .contact-footer a:hover {
+    text-decoration: underline;
+  }
+  

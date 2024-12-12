@@ -1,0 +1,99 @@
+/* Main Section */
+.first-content {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 12%;
+  padding-top: 18%;
+  height: 80vh; 
+  font-family: 'Arial', sans-serif;
+  color: white;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+  transition: background-image 1s ease-in-out;
+}
+
+.first-content p {
+  font-size: 30px;
+  margin: 0;
+  font-weight: bold;
+}
+
+.first-content h1 {
+  padding-top: 20px;
+  font-size: 70px;
+  padding-bottom: 40px;
+  line-height: 1.2;
+}
+
+.first-content button {
+  background-color: #ffd633;
+  color: black;
+  padding: 10px 20px;
+  font-size: medium;
+  border: none;
+  border-radius: 20px;
+  opacity: 0.9;
+  cursor: pointer;
+  transition: background-color 0.3s, opacity 0.3s, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.first-content button:hover {
+  background-color: #e6c236; 
+  opacity: 1; 
+  transform: scale(1.1); 
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .first-content {
+      padding-left: 8%;
+      padding-top: 12%;
+      height: 60vh;
+  }
+
+  .first-content p {
+      font-size: 24px;
+  }
+
+  .first-content h1 {
+      font-size: 40px;
+      padding-bottom: 20px;
+  }
+
+  .first-content button {
+      padding: 8px 16px;
+      font-size: small;
+  }
+}
+
+/* Tooltip container */
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip-container .tooltip-text {
+  visibility: hidden;
+  width: 200px;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 8px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; 
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  font-size: 14px;
+}
+
+
+.tooltip-container:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+

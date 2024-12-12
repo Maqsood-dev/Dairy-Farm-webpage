@@ -1,0 +1,37 @@
+/* Products.css */
+.products-container #serr{
+    color: rgba(5, 114, 5, 0.884);
+    padding-top: 20px;
+  }
+.products-container {
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .products-container h1{
+    font-size: 50px;
+  }
+  .product-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .product-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 2px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    margin: 10px;
+    transition: transform 0.3s;
+  }
+  .product-card:hover{
+    transform: translateY(-10px);
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    height: auto;
+  }

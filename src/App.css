@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column; 
+   
+  width: 100%;
+  max-width: 100%;
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  padding: 5px;
+  box-shadow: 0 0 14px rgb(0, 0, 0, 0.3);
+  background: white;
+  z-index: 3;
+}
+
+.navbar .title{
+  margin-left: 10px;
+}
+
+.navbar .manu li{
+  list-style: none;
+  display: inline-block;
+}
+.navbar .manu li a{
+  text-decoration: none;
+  color: black;
+}
+
+.manu button {
+  background: none;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: 600;
+}
+
+.manu button:hover {
+  text-decoration: underline;
+}
